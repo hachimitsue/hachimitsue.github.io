@@ -86,11 +86,11 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 }
 
 h1, .h1 {
-  font-size: calc(1.375rem + 1.5vw);
+  font-size: calc(1.2rem + 1.1vw);
 }
 @media (min-width: 1200px) {
   h1, .h1 {
-    font-size: 2.5rem;
+    font-size: 1rem;
   }
 }
 
@@ -7246,8 +7246,6 @@ textarea.form-control-lg {
 
 .lh-lg {
   line-height: 2 !important;
-  margin-right: 5rem;
-  margin-left: 5rem;
 }
 
 .text-start {
@@ -10842,14 +10840,14 @@ textarea.form-control-lg {
   font-family: "Poppins", sans-serif;
 }
 .display-2--description {
-  font-size: 1rem;
+  font-size: 0.8rem;
   display: block;
-  margin-top: 1.2rem;
+  margin-top: 0.3rem;
   text-transform: none;
 }
 @media (min-width: 992px) {
   .display-2--description {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     display: inline-block;
   }
 }
@@ -10959,6 +10957,18 @@ textarea.form-control-lg {
   }
   100%{
     transform: translateY(0);
+  }
+}
+
+@media (max-width: 576px) {
+  .img-box img {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .img-box img {
+    margin-top: 2rem;
   }
 }
 
@@ -11200,12 +11210,12 @@ textarea.form-control-lg {
 
 .footer {
   padding-top: 1rem;
-  background-color: #151414;
+  background-color: #FA8BFF;
+  background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%); 
 }
 
 .contact-box {
   position: relative;
-  justify-content: center;
 }
 .contact-box__icon {
   width: 2rem;
@@ -11276,7 +11286,8 @@ textarea.form-control-lg {
 }
 
 .footer-bottom {
-  background-color: #000;
+  background-color: #FA8BFF;
+  background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%); 
 }
 .footer-bottom__copyright {
   color: #6c757d;
